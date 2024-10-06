@@ -7,8 +7,8 @@ function myFunction(){
 
     event.preventDefault(); //to cancel submitting the form;
     const name = document.getElementById("name").value;
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
+    const username = document.getElementById("rusername").value;
+    const password = document.getElementById("rpassword").value;
     const confirmPassword =
       document.getElementById("confirmPassword").value;
 
