@@ -5,8 +5,8 @@ function myFunction(){
  // .getElementById("loginForm")
 //.addEventListener("submit", function (event) {
    event.preventDefault();
-   const username = document.getElementById("username").value;
-   const password = document.getElementById("password").value;
+   const username = document.getElementById("lusername").value;
+   const password = document.getElementById("lpassword").value;
 
    const user = localStorage.getItem(username);
 
